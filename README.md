@@ -31,7 +31,7 @@ and personalized recommendations.
 - shadcn/ui
 
 **Backend**
-- Python 3.13
+- Python 3.13 (local) / 3.12 (production)
 - FastAPI
 - pypdf (PDF text extraction)
 
