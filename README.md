@@ -56,7 +56,7 @@ The backend itself is organized in layers:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/resumelens-ai.git
+git clone https://github.com/david-velazquez-h/resumelens-ai.git
 cd resumelens-ai
 ```
 
