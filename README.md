@@ -4,6 +4,14 @@ AI-powered resume analyzer that gives job seekers instant, actionable feedback
 on their resume — strengths, weaknesses, ATS compatibility, missing keywords,
 and personalized recommendations.
 
+## Live Demo
+
+🔗 [Try ResumeLens AI](https://resumelens-ai-pearl.vercel.app/)
+![ResumeLens AI screenshot](./docs/screenshot.png)
+
+> Note: the backend runs on Render's free tier, which spins down after
+> inactivity. The first request may take 30-50 seconds to wake up.
+
 ## Features
 
 - 📄 Upload a PDF resume (drag-and-drop or file picker) and get instant AI-powered analysis
@@ -104,6 +112,11 @@ resumelens-ai/
 │   │   └── core/            # Configuration
 │   └── requirements.txt
 └── README.md
+
+## Deployment
+
+- **Frontend:** [Vercel](https://resumelens-ai-pearl.vercel.app/)
+- **Backend:** [Render](https://resumelens-ai-tt33.onrender.com/docs) (interactive API docs)
 
 ## Roadmap
 
