@@ -18,7 +18,8 @@ app = FastAPI(
 # running on localhost:8000). This middleware explicitly allows it.
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],
+    allow_origins=["http://localhost:3000", "https://resumelens-ai-pearl.vercel.app"],
+
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
